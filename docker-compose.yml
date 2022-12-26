@@ -1,9 +1,11 @@
 version: '3.7'
 
 services:
-  lotagame:
-    image: kostaseckar/python_bot_game:latest
-  networks:
+  python_bot_game:
+    image: sechkarks/python_bot_game:latest
+
+
+networks:
   default:
     name: bridge-nerwork
     external: true
